@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/temp_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/date_text"
+        android:layout_below="@+id/date_text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="110sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/date_text"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/city_text"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="20dp" />
+
+    <TextView
+        android:id="@+id/descrip_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/temp_text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/temp_text"
+        android:layout_toEndOf="@+id/temp_text"
+        android:text="  C"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageView
+        android:id="@+id/weather_imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/city_text"
+        android:layout_marginTop="71dp"
+        android:src="@drawable/icon_clearsky" />
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="190dp"
+        >
+
+        <com.example.ecare_client.mainpageview.SexangleViewGroup
+            android:id="@+id/sexangleView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true">
+
+            <com.example.ecare_client.mainpageview.SexangleImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/center_video" />
+
+            <com.example.ecare_client.mainpageview.SexangleImageView
+                android:id="@+id/help"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/help_icon"
+                />
+
+            <com.example.ecare_client.mainpageview.SexangleImageView
+                android:id="@+id/btnOpenPersonalInfo"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/profile_icon"
+                />
+
+            <com.example.ecare_client.mainpageview.SexangleImageView
+                android:id="@+id/chat_activity"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/message_icon" />
+
+            <com.example.ecare_client.mainpageview.SexangleImageView
+                android:id="@+id/btnOpenMaps"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/map_icon"
+                 />
+
+            <com.example.ecare_client.mainpageview.SexangleImageView
+                android:id="@+id/btnOpenSettings"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/toolbox_icon"
+                 />
+
+
+        </com.example.ecare_client.mainpageview.SexangleViewGroup>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
+
+

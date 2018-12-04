@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:keepScreenOn="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="false"
+    android:background="@color/colorPrimaryDark"
+    android:padding="2dp">
+
+    <com.example.ecare_client.TitleLayout
+        android:id="@+id/magnifier_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tool Box" />
+    <FrameLayout
+        android:id="@+id/camera_preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true" >
+
+    </FrameLayout>
+
+    <ImageButton
+        android:id="@+id/button_flash"
+        android:layout_width="@dimen/button_size_secondary"
+        android:layout_height="@dimen/button_size_secondary"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="right|bottom"
+        android:layout_marginEnd="22dp"
+        android:layout_marginTop="71dp"
+        android:background="@drawable/button_flash_round_corners"
+        android:contentDescription="@string/button_flash_description"
+        android:elevation="8dp"
+        android:paddingBottom="@dimen/button_padding_secondary"
+        android:paddingTop="@dimen/button_padding_secondary"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_flash_on_black_48dp" />
+
+
+    <ImageButton
+        android:id="@+id/button_zoom"
+        android:layout_width="@dimen/button_size_primary"
+        android:layout_height="@dimen/button_size_primary"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="right|center_vertical"
+        android:background="@drawable/button_zoom_round_corners"
+        android:contentDescription="@string/button_zoom_description"
+        android:elevation="16dp"
+        android:paddingBottom="@dimen/button_padding_primary"
+        android:paddingTop="@dimen/button_padding_primary"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_zoom" />
+
+</RelativeLayout>

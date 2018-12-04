@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">E-Care</string>
+
+    <string name="action_sign_in_short">Register</string>
+    <string name="email">Email</string>
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+    <string name="change_email">Change Email</string>
+    <string name="change_password">Change Password</string>
+    <string name="send_password_reset_email">Send Password reset email</string>
+    <string name="remove_user">Remove user</string>
+    <string name="new_pass">New Password</string>
+    <string name="title_activity_profile">Firebase</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_link_to_register">Not a member? Get registered in Firebase now!</string>
+    <string name="btn_link_to_login">Already registered. Login Me!</string>
+    <string name="title_activity_reset_password">ResetPasswordActivity</string>
+    <string name="btn_forgot_password">Forgot your password?</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="btn_back"><![CDATA[<< Back]]></string>
+    <string name="hint_new_email">New Email</string>
+    <string name="btn_change">Change</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_remove">Remove</string>
+    <string name="btn_sign_out">Sign Out</string>
+    <string name="lbl_forgot_password">Forgot password?</string>
+    <string name="btn_delete_contact">Delete</string>
+    <string name="forgot_password_msg">We just need your registered Email Id to sent you password reset instructions.</string>
+
+    <string name="title_activity_maps">Map</string>
+
+    <string name="add_task_activity_name">Add a New Task</string>
+
+    <!-- Strings for MainActivity -->
+    <string name="priority_1">1</string>
+    <string name="priority_2">2</string>
+    <string name="priority_3">3</string>
+
+    <!-- Strings for AddTaskActivity -->
+    <!-- This edit task has a unicode character for "..." = "&#8230;" -->
+    <string name="edit_task_description">Describe your task&#8230;</string>
+    <string name="priority_string">Priority</string>
+
+    <string name="high_priority">High</string>
+    <string name="med_priority">Medium</string>
+    <string name="low_priority">Low</string>
+
+    <string name="add_button">Add</string>
+
+
+    <string name="title_activity_contact_list">ContactListActivity</string>
+    <string name="contact_list_title">Contact List</string>
+    <string name="contact_hint">Enter contact\'s email</string>
+    <string name="add_contact_btn">ADD CONTACT</string>
+
+    <string name="mon">Monday</string>
+    <string name="tue">Tuesday</string>
+    <string name="wed">Wednesday</string>
+    <string name="thu">Thursday</string>
+    <string name="fri">Friday</string>
+    <string name="sat">Saturday</string>
+    <string name="sun">Sunday</string>
+    <string name="cycle_sure">Confirm</string>
+    <string name="vibration">Vibrate</string>
+    <string name="ring">Ring</string>
+
+    <string name="button_color_description">change contrast mode</string>
+    <string name="button_zoom_description">change magnification level</string>
+    <string name="button_flash_description">toggle flashlight on and off</string>
+    <string name="button_pause_description">freezes the current camera image</string>
+    <string name="text_autofocus_enabled">Autofocus enabled.</string>
+    <string name="text_autofocus_disabled">Autofocus disabled. Tap to focus.</string>
+    <string name="text_image_stored">Image stored in path </string>
+    <string name="update_nickname">Update nickname</string>
+
+    <!-- Key names (equal in all languages) -->
+    <string name="visor_shared_preference_name">VisorAndroidSharedPreference</string>
+    <string name="key_preference_zoom_level">VisorAndroidKeyPreferenceZoomLevel</string>
+    <string name="key_preference_color_mode">VisorAndroidKeyPreferenceColorMode</string>
+    <string name="key_preference_autofocus_mode">VisorAndroidKeyPreferenceAutofocusMode</string>
+    <string name="key_preference_activity_button_mode">VisorAndroidKeyPreferenceButtonMode</string>
+
+    <string name="full_name">Your Full Name</string>
+    <string name="phone">Your Mobile Phone No.</string>
+
+    <string name="contact_profile_email">Email:</string>
+    <string name="google_sign_in">Google sign-in</string>
+    <string name="facebook_sign_in">Facebook sign-in</string>
+
+
+
+
+</resources>

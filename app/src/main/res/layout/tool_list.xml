@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4b5bb5"
+    android:padding="2dp">
+
+    <com.example.ecare_client.TitleLayout
+        android:id="@+id/tool_box_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tool Box" />
+
+
+    <ImageView
+        android:id="@+id/btnPersonalInfo"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="90dp"
+        android:background="@color/colorPrimaryDark"
+        app:srcCompat="@drawable/personal_info" />
+
+    <TextView
+        android:id="@+id/date_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnPersonalInfo"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="59dp"
+        android:fontFamily="@font/baloo"
+        android:text="User Settings"
+        android:textColor="@color/btn_login" />
+
+    <ImageView
+        android:id="@+id/btnOpenChecklist"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/btnPersonalInfo"
+        android:layout_marginBottom="159dp"
+        android:background="@color/colorPrimaryDark"
+        app:srcCompat="@drawable/todo_list" />
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnOpenChecklist"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="77dp"
+        android:fontFamily="@font/baloo"
+        android:text="To-Do List"
+        android:textColor="@color/btn_login" />
+
+    <ImageView
+        android:id="@+id/btnOpenAlarmClock"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_alignBottom="@+id/btnOpenChecklist"
+        android:layout_alignRight="@id/btnOpenMagnifier"
+        android:background="@color/colorPrimaryDark"
+        app:srcCompat="@drawable/alarm_clock" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnOpenChecklist"
+        android:layout_alignEnd="@+id/textView6"
+        android:fontFamily="@font/baloo"
+        android:text="Alarm Clock"
+        android:textColor="@color/btn_login" />
+
+    <ImageView
+        android:id="@+id/btnOpenMagnifier"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/btnPersonalInfo"
+        android:layout_marginEnd="30dp"
+        android:background="@color/colorPrimaryDark"
+        app:srcCompat="@drawable/magnifier" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnPersonalInfo"
+
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="70dp"
+        android:fontFamily="@font/baloo"
+        android:text="Magnifier"
+        android:textColor="@color/btn_login" />
+
+
+</RelativeLayout>
